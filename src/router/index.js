@@ -26,7 +26,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/humanometro-2.0'),
+  history: createWebHistory('process.env.BASE_URL'),
   routes
 })
 
